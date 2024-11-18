@@ -57,7 +57,13 @@ input_data_raw = ...  # Shape: (batch_size, 9, 9, 655)
 model_psd = BrainGridNet_PSD32()
 output_psd = model_psd(input_data_psd)
 
-### Citation
+
+# Instantiate the model for Raw input
+model_raw = BrainGridNet_Raw()
+output_raw = model_raw(input_data_raw)
+
+
+## Citation
 
 If you find this repository helpful, please consider citing our work:
 
@@ -80,8 +86,3 @@ pages = {312–324},
 numpages = {13},
 keywords = {Convolutional Neural Network (CNN), Power Spectral Density (PSD), Electroencephalogram (EEG), Multi-class motor imagery, Computational costs}
 }
-
-
-# Instantiate the model for Raw input
-model_raw = BrainGridNet_Raw()
-output_raw = model_raw(input_data_raw)
