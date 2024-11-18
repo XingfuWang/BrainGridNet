@@ -1,6 +1,6 @@
 # BrainGridNet
 
-Welcome to the official repository for [**BrainGridNet**: A two-branch depthwise CNN for decoding EEG-based multi-class motor imagery](https://doi.org/10.1016/j.neunet.2023.11.037)
+Welcome to the official repository for [**BrainGridNet**: A two-branch depthwise CNN for decoding EEG-based multi-class motor imagery](https://doi.org/10.1016/j.neunet.2023.11.037).
 This repository includes implementations of our experimental models, **BrainGridNet_PSD32** and **BrainGridNet_Raw**, as well as comparative models used for ablation studies.
 
 
@@ -40,8 +40,8 @@ For **Raw** input:
 - **`BrainGridNet_PSD32`**: Processes PSD data of EEG signals.
 - **`BrainGridNet_Raw`**: Processes raw EEG data.
 
-### TimesNet Architecture
-Below is the architecture of the TimesNet module used in `BrainGridNet_Raw` to process raw EEG signals:
+### TimesNet Method
+Below is the TimesNet method used in `BrainGridNet_Raw` to process raw EEG signals:
 
 ![TimesNet Architecture](https://github.com/XingfuWang/BrainGridNet/blob/main/Timesnet_method.png)
 ---
