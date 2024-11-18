@@ -1,6 +1,7 @@
 # BrainGridNet
 
-**BrainGridNet** is a dual-branch depthwise convolutional neural network developed for decoding multi-class motor imagery from EEG signals. This repository provides the implementation of our experimental models, **BrainGridNet_PSD32** and **BrainGridNet_Raw**, as well as comparative models used for ablation experiments.
+Welcome to the official repository for BrainGridNet: A two-branch depthwise CNN for decoding EEG-based multi-class motor imagery. This repository includes implementations of our experimental models, **BrainGridNet_PSD32** and **BrainGridNet_Raw**, as well as comparative models used for ablation studies.
+
 
 ---
 
