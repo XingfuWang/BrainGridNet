@@ -61,7 +61,7 @@ output_psd = model_psd(input_data_psd)
 # Instantiate the model for Raw input
 model_raw = BrainGridNet_Raw()
 output_raw = model_raw(input_data_raw)
-
+```
 
 ## Citation
 
