@@ -86,3 +86,4 @@ pages = {312–324},
 numpages = {13},
 keywords = {Convolutional Neural Network (CNN), Power Spectral Density (PSD), Electroencephalogram (EEG), Multi-class motor imagery, Computational costs}
 }
+```
