@@ -57,6 +57,31 @@ input_data_raw = ...  # Shape: (batch_size, 9, 9, 655)
 model_psd = BrainGridNet_PSD32()
 output_psd = model_psd(input_data_psd)
 
+### Citation
+
+If you find this repository helpful, please consider citing our work:
+
+```makefile
+@article{10.1016/j.neunet.2023.11.037,
+author = {Wang, Xingfu and Wang, Yu and Qi, Wenxia and Kong, Delin and Wang, Wei},
+title = {BrainGridNet: A two-branch depthwise CNN for decoding EEG-based multi-class motor imagery},
+year = {2024},
+issue_date = {Feb 2024},
+publisher = {Elsevier Science Ltd.},
+address = {GBR},
+volume = {170},
+number = {C},
+issn = {0893-6080},
+url = {https://doi.org/10.1016/j.neunet.2023.11.037},
+doi = {10.1016/j.neunet.2023.11.037},
+journal = {Neural Netw.},
+month = apr,
+pages = {312–324},
+numpages = {13},
+keywords = {Convolutional Neural Network (CNN), Power Spectral Density (PSD), Electroencephalogram (EEG), Multi-class motor imagery, Computational costs}
+}
+
+
 # Instantiate the model for Raw input
 model_raw = BrainGridNet_Raw()
 output_raw = model_raw(input_data_raw)
