@@ -31,12 +31,17 @@ For **PSD** input:
 
 For **Raw** input:
 - **Input Shape**: `(batch_size, 9, 9, 655)`  
+  _(Note: The TimesNet method plays a critical role in effectively learning features from raw EEG signals. It helps capture temporal dependencies and enhances model performance. See the figure below for the architecture of TimesNet.)_
 - **Output Shape**: `(batch_size, num_classes)`
 
 #### Model Descriptions
 - **`BrainGridNet_PSD32`**: Processes PSD data of EEG signals.
 - **`BrainGridNet_Raw`**: Processes raw EEG data.
 
+### TimesNet Architecture
+Below is the architecture of the TimesNet module used in `BrainGridNet_Raw` to process raw EEG signals:
+
+![TimesNet Architecture](https://github.com/XingfuWang/BrainGridNet/blob/main/Timesnet_method.png)
 ---
 
 ### Example Usage
