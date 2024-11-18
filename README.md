@@ -1,6 +1,7 @@
 # BrainGridNet
 
-Welcome to the official repository for BrainGridNet: A two-branch depthwise CNN for decoding EEG-based multi-class motor imagery. This repository includes implementations of our experimental models, **BrainGridNet_PSD32** and **BrainGridNet_Raw**, as well as comparative models used for ablation studies.
+Welcome to the official repository for [**BrainGridNet**: A two-branch depthwise CNN for decoding EEG-based multi-class motor imagery](https://doi.org/10.1016/j.neunet.2023.11.037)
+This repository includes implementations of our experimental models, **BrainGridNet_PSD32** and **BrainGridNet_Raw**, as well as comparative models used for ablation studies.
 
 
 ---
